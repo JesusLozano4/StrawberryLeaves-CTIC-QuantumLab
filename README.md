@@ -1,11 +1,16 @@
 # Quantum classification of strawberry leaves
-CTIC adaptation of ARQA Demo 1
+This project originates from previous work on the **ARQA Demonstrator 1**, within the framework of **[Cervera Network ARQA](https://redarqa.es/)**. The architectures and structures developed in that phase have been adapted and repurposed to create a disease detection system for strawberry leaves. This initiative aims to increase the visibility of **Quantum Computing** within the agricultural sector, showcasing its practical utility and its promise for future scalability.
 
 ## Project Structure
 - dataset
   - hojas2clases: Unzip the compressed file inside here
   - HojasSimulador: Unzip the compressed file inside here
 - notebooks
+  - CropLeaves.ipynb
+  - HQNN.ipynb
+  - QCNN.ipynb
+  - TrainHQNN.ipynb
+  - TrainQCNN.ipynb
 - src
   - nn
     - ansatz
@@ -30,6 +35,12 @@ CTIC adaptation of ARQA Demo 1
     - training.py
   - YOLO
     - yolo_funcs.py
+- requirements.txt
+
+## Installation
+To install the required libraries and dependencies, run the following command in your terminal:
+
+`pip install -r requirements.txt`
 
 ## Setup and Data (Releases)
 The dataset and trained models are hosted in the **Releases** section of this repository. Please download the files and organize the `dataset` directory as follows:
